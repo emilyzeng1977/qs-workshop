@@ -5,7 +5,6 @@
       "Type" : "AWS::S3::Bucket",
       "Properties" : {
         "AccessControl" : "PublicRead",
-        "BucketName" : "tniu-19-best123"
       }
     }
   },
