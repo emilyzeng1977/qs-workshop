@@ -1,1 +1,20 @@
 # See lab instructions
+{
+  "Resources" : {
+    "S3Bucket" : {
+      "Type" : "AWS::S3::Bucket",
+      "Properties" : {
+        "AccessControl" : "PublicRead",
+        "BucketName" : "tniu-19-best123"
+      }
+    }
+  },
+
+  "Outputs" : {
+    "BucketName": {
+      "Value": {
+        "Ref": "S3Bucket"
+      }
+    }
+  }
+}
